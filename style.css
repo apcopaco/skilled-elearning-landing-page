@@ -207,7 +207,7 @@ h6 {
     display: none;
   }
   body {
-    background-image: url(/assets/image-hero-tablet.png);
+    background-image: url(./assets/image-hero-tablet.png);
     background-repeat: no-repeat;
     background-position: right -298px top -70px;
   }
@@ -225,6 +225,7 @@ h6 {
 
   .main_container {
     width: 100%;
+    
   }
 }
 
@@ -264,6 +265,7 @@ h6 {
     body {
         background-image: url(./assets/image-hero-desktop.png);
         background-position: right -350px top -160px;
+        
         
     }
     .checkout_courses {
@@ -317,5 +319,20 @@ h6 {
         width: 167px;
         height: 56px;
     }
+
+
+    /* Desktop-size_hover */
+    .button_2:hover {
+        cursor: pointer;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+         linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    }
+    h6:hover {
+        cursor: pointer;
+        color: rgba(255, 167, 195, 1);
+
+    }
+
+        
     
 }
