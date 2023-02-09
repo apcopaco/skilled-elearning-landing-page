@@ -334,6 +334,16 @@ h6 {
         color: rgba(255, 167, 195, 1);
 
     }
+
+    .footer_button:hover {
+        cursor: pointer;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+        linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    }
+    .button_1:hover {
+        cursor: pointer;
+        background: #666CA3;
+    }
     
     
 }
