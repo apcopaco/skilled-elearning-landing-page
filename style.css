@@ -107,12 +107,14 @@ h4 {
   row-gap: 40px;
   column-gap: 11px;
   justify-content: center;
+  max-width: 1440px;
 }
 .main_container {
-  background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+    background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
   display: flex;
   justify-content: center;
   padding-bottom: 80px;
+  
 }
 
 .course {
@@ -332,7 +334,6 @@ h6 {
         color: rgba(255, 167, 195, 1);
 
     }
-
-        
+    
     
 }
